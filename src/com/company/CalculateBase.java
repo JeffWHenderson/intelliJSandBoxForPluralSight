@@ -10,7 +10,7 @@ public abstract class CalculateBase {
     public double getRightVal() {return rightVal;}
     public void setRightVal(double rightVal) {this.rightVal = rightVal;}
     public double getResult() {return result;}
-    public void setResult(char result) {this.result = result;}
+    public void setResult(double result) {this.result = result;}
 
 //    public double getResult() {return result;}
 
