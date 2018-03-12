@@ -27,13 +27,6 @@ public class MathEquation {
         this.rightVal = rightVal;
     }
 
-    String[] statements = {
-            "divide 100.0 50.0",
-            "add 25.0 92.0",
-            "subtract 225.0 17.0",
-            "multiply 11.0 3.0"
-    };
-
     public void execute(double leftVal, double rightVal) {
         this.leftVal = leftVal;
         this.rightVal = rightVal;
