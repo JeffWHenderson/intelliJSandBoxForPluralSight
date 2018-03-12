@@ -10,6 +10,8 @@ public class Main {
                 "multiply 11.0 3.0"
         };
 
+//        Implementation with Helper Method Below
+
         CalculateHelper helper = new CalculateHelper();
         for(String statement : statements) {
             helper.process(statement);
@@ -17,12 +19,7 @@ public class Main {
             System.out.println(helper);
         }
 
-
-
-
-
-
-
+        // Original Implementation below
 
 
 

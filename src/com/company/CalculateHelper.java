@@ -50,5 +50,36 @@ public class CalculateHelper {
         else if(commandString.equalsIgnoreCase(MathCommand.Divide.toString()))
             command = MathCommand.Divide;
     }
+
+    @Override
+    public String toString() {
+        char symbol = ' ';
+        switch(command) {
+            case Add:
+                symbol = '+';
+                break;
+            case Subtract:
+                symbol = '-';
+                break;
+            case Divide:
+                symbol = '/';
+                break;
+            case Multiply:
+                symbol = '*';
+                break;
+
+        }
+
+        StringBuilder sb = new StringBuilder(20);
+        sb.append(leftValue);
+        sb.append(' ');
+        sb.append(symbol);
+        sb.append(' ');
+        sb.append(rightValue);
+        sb.append(" = ");
+        sb.append(result);
+
+        return sb.toString();
+    }
 }
 
