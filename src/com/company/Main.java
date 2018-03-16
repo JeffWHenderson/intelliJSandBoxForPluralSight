@@ -4,6 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
         String[] statements = {
+                "add 1.0", // error
+                "add xx 25.0", // error
+                "addX  0.0 0.0", // error
                 "divide 100.0 50.0",
                 "add 25.0 92.0",
                 "subtract 225.0 17.0",
