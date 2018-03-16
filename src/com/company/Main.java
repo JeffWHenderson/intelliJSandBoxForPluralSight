@@ -17,9 +17,14 @@ public class Main {
 
         CalculateHelper helper = new CalculateHelper();
         for(String statement : statements) {
-            helper.process(statement);
-
-            System.out.println(helper);
+            try {
+                helper.process(statement);
+                System.out.println(helper);
+            } catch(InvalidStatementException e) {
+                System.out.println(e.getMessage());
+                if(e.getCause() != null)
+                    System.out.println(" Original message: " + e.getCause().getMessage());
+            }
         }
 
         // Original Implementation below
