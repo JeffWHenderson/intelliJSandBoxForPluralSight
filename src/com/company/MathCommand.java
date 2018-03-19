@@ -1,6 +1,6 @@
 package com.company;
 
-public enum MathCommand {
+enum MathCommand { // made package private
     Add,
     Subtract,
     Multiply,
