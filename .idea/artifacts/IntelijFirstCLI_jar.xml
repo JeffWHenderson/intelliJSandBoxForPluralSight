@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IntelijFirstCLI:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/IntelijFirstCLI_jar</output-path>
+    <root id="archive" name="IntelijFirstCLI.jar">
+      <element id="module-output" name="IntelijFirstCLI" />
+    </root>
+  </artifact>
+</component>
