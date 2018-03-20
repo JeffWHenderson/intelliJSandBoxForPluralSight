@@ -12,6 +12,21 @@ import com.company.Subtracter;
 public class Main {
 
     public static void main(String[] args) {
+        //useCalculateHelper();
+
+        String[] statements = {
+                "add 25.0 92.0",
+        };
+
+        for(String statement:statements){
+
+        }
+    }
+
+//        Implementation with Helper Method Below
+
+    static void useCalculateHelper() {
+
         String[] statements = {
                 "add 1.0", // error
                 "add xx 25.0", // error
@@ -21,8 +36,6 @@ public class Main {
                 "subtract 225.0 17.0",
                 "multiply 11.0 3.0"
         };
-
-//        Implementation with Helper Method Below
 
         CalculateHelper helper = new CalculateHelper();
         for(String statement : statements) {
