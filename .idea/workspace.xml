@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="013b2ed6-81fa-474e-a133-1971b8c08875" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/MathProcessing.java" afterPath="$PROJECT_DIR$/src/com/company/MathProcessing.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Adder.java" afterPath="$PROJECT_DIR$/src/com/company/Adder.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MathProcessing.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MathProcessing.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/MathProcessing.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -97,14 +97,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Adder.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Adder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Adder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="450">
+              <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding>
-                <element signature="e#137#138#0" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,7 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Adder.java" />
         <option value="$PROJECT_DIR$/src/com/company/CalculateBase.java" />
         <option value="$PROJECT_DIR$/src/com/company/Subtracter.java" />
         <option value="$PROJECT_DIR$/src/com/company/Multiplier.java" />
@@ -176,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/com/company/MathCommand.java" />
         <option value="$PROJECT_DIR$/src/com/company/myapp/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/MathProcessing.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Adder.java" />
       </list>
     </option>
   </component>
@@ -392,17 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Adder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Divider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -475,6 +468,21 @@
         <state relative-caret-position="120">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Adder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
